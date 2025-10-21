@@ -1,7 +1,8 @@
 
 [AutoChess]
 CrownsEnabled = true
-CrownsForWin = 1
+CrownsForWin = 0
 CrownsForLoss = 0
 CrownMultiplierForRank = [1, 1, 1, 1]
 RewardAmountForRank = [1, 1, 0, 0]
+
