@@ -1,0 +1,16 @@
+[GoblinBarrel]
+	EvoInfoSpeed = 400
+
+[Mirror]
+	OmitFromStartingHand = true
+
+[GoblinCurse]
+	Stats = "goblin_curse"
+
+[Tornado]
+	Stats = "tornado"
+
+[Vines]
+	Stats = "vines"
+	InBattleStats = "vines_in_battle"
+	

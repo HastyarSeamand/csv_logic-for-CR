@@ -1,0 +1,30 @@
+
+[AutoChessArena1]
+	Augments = []
+
+[AutoChessArena2]
+	Augments = ["logic/autochess/augments/augment_basic/big_fund/augment_big_fund","logic/autochess/augments/augment_basic/bigger_team/augment_bigger_team","logic/autochess/augments/augment_basic/legacy_augment/augment_legacy_augment"]
+
+[AutoChessArena3]
+	Augments = ["logic/autochess/augments/augment_basic/big_party/augment_big_party","logic/autochess/augments/augment_basic/rare_star/augment_rare_star","logic/autochess/augments/augment_basic/epic_star/augment_epic_star"]
+
+[AutoChessArena4]
+	Augments = ["logic/autochess/augments/augment_basic/legendary_star/augment_legendary_star","logic/autochess/augments/augment_basic/champion_star/augment_champion_star","logic/autochess/augments/augment_basic/richer_richer/augment_richer_richer"]
+
+[AutoChessArena5]
+	Augments = ["logic/autochess/augments/augment_basic/freenzy/augment_freenzy","logic/autochess/augments/augment_basic/less_is_more/augment_less_is_more","logic/autochess/augments/augment_basic/thornwall/augment_thornwall"]
+
+[AutoChessArena6]
+	Augments = ["logic/autochess/augments/augment_basic/golden_chest/augment_golden_chest","logic/autochess/augments/augment_basic/you_are_mine/augment_you_are_mine","logic/autochess/augments/augment_basic/first_free/augment_first_free"]
+
+[AutoChessArena7]
+	Augments = ["logic/autochess/augments/augment_basic/bigger_pool/augment_bigger_pool","logic/autochess/augments/augment_basic/echo_bench/augment_echo_bench","logic/autochess/augments/augment_basic/pandora_bench/augment_pandora_bench"]
+
+[AutoChessArena8]
+	Augments = ["logic/autochess/augments/augment_basic/survival_bonus/augment_survival_bonus","logic/autochess/augments/augment_basic/trait_dummy/augment_trait_dummy","logic/autochess/augments/augment_basic/unit_conference/augment_unit_conference"]
+
+[AutoChessArena9]
+	Augments = ["logic/autochess/augments/augment_basic/lucky_discount/augment_lucky_discount","logic/autochess/augments/augment_basic/clear_mind/augment_clear_mind","logic/autochess/augments/augment_basic/ascension/augment_ascension"]
+
+[AutoChessArena10]
+	Augments = ["logic/autochess/augments/augment_basic/smart_trade/augment_smart_trade","logic/autochess/augments/augment_basic/ascended_star/augment_ascended_star","logic/autochess/augments/augment_basic/first_pick/augment_first_pick"]

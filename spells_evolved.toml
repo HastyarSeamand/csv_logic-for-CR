@@ -1,0 +1,49 @@
+
+[GoblinBarrel_EV1]
+	OnExecuteAction="GoblinBarrel_EV1_CreateDecoy"
+
+[GoblinCage_EV1]
+	Stats = "goblin_cage_ev1"
+
+[Musketeer_EV1]
+	Stats = "Musketeer_EV1"
+
+[Cannon_EV1]
+	Stats = "Cannon_EV1"
+
+[Snowball_EV1]
+	Stats = "snowball_spell_ev1"
+	InBattleStats = "snowball_spell_ev1_in_battle"
+
+[ElectroDragon_EV1]
+	Stats = "electro_dragon_ev1"
+	
+[Hunter_EV1]
+	Stats = "Hunter_EV1"
+
+[BlowdartGoblin_EV1]
+	Stats = "BlowdartGoblin_EV1"
+
+[RageBarbarian_EV1]
+	Stats =  "RageBarbarian_EV1"
+
+[Pekka_EV1]
+	Stats =  "Pekka_EV1"
+
+[Witch_EV1]
+	Stats = "witch_ev1"
+
+[AxeMan_EV1]
+	Stats = "AxeMan_EV1"
+
+[InfernoDragon_EV1]
+	Stats = "InfernoDragon_EV1"
+
+[SkeletonBalloon_EV1]
+	Stats = "SkeletonBalloon_EV1"
+
+[FirespiritHut_EV1]
+	Stats = "furnace_ev1"
+
+[BabyDragon_EV1]
+	Stats = "babydragon_ev1"

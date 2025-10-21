@@ -1,0 +1,12 @@
+
+[GoblinDrill]
+	EvoInfoSpeed = 275
+
+["Elixir Collector"]
+	OmitFromStartingHand = true
+
+[GoblinHut]
+	Stats = "goblin_hut_rework"
+
+[FirespiritHut]
+	Stats = "furnace_rework"

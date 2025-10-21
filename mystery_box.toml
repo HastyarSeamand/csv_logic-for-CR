@@ -1,0 +1,134 @@
+[CommonLuckyDrop]
+Rarities=["Common","Rare","Epic","Legendary","Champion"]
+UpgradeProbabilities=[25, 23, 23, 23, 0]
+SpinCount = 4
+
+[RareLuckyDrop]
+Rarities=["Rare","Epic","Legendary","Champion"]
+UpgradeProbabilities=[24, 20, 6, 0]
+SpinCount = 4
+
+[EpicLuckyDrop]
+Rarities=["Epic","Legendary","Champion"]
+UpgradeProbabilities=[20, 2, 0]
+SpinCount = 4
+
+[ChampionLuckyDrop]
+Rarities=["Champion"]
+UpgradeProbabilities=[0]
+SpinCount = 1
+
+[CommonLuckyDropSpinPlus1]
+Rarities=["Common","Rare","Epic","Legendary","Champion"]
+UpgradeProbabilities=[25, 20, 20, 8, 0]
+SpinCount = 5
+
+[CommonLuckyDropSpinPlus2]
+Rarities=["Common","Rare","Epic","Legendary","Champion"]
+UpgradeProbabilities=[25, 20, 20, 8, 0]
+SpinCount = 6
+
+[CommonLuckyDropSpinPlus3]
+Rarities=["Common","Rare","Epic","Legendary","Champion"]
+UpgradeProbabilities=[25, 20, 20, 8, 0]
+SpinCount = 7
+
+[TestCommon]
+Rarities=["Common"]
+UpgradeProbabilities=[25]
+SpinCount = 4
+
+[TestRare]
+Rarities=["Rare"]
+UpgradeProbabilities=[23]
+SpinCount = 4
+
+[TestEpic]
+Rarities=["Epic"]
+UpgradeProbabilities=[23]
+SpinCount = 4
+
+[TestLegendary]
+Rarities=["Legendary"]
+UpgradeProbabilities=[23]
+SpinCount = 4
+
+[TestChampion]
+Rarities=["Champion"]
+UpgradeProbabilities=[0]
+SpinCount = 4
+
+[CommonUpgradeToChampion]
+Rarities=["Common","Rare","Epic","Legendary","Champion"]
+UpgradeProbabilities=[100, 100, 100, 100, 0]
+SpinCount = 4
+
+[CommonUpgradeToLegendary]
+Rarities=["Common","Rare","Epic","Legendary","Champion"]
+UpgradeProbabilities=[100, 100, 100, 23, 0]
+SpinCount = 4
+
+[CommonUpgradeToEpic]
+Rarities=["Common","Rare","Epic","Legendary","Champion"]
+UpgradeProbabilities=[100, 100, 23, 23, 0]
+SpinCount = 4
+
+[RareUpgradeToChampion]
+Rarities=["Rare","Epic","Legendary","Champion"]
+UpgradeProbabilities=[100, 100, 100, 0]
+SpinCount = 4
+
+[RareUpgradeToLegendary]
+Rarities=["Rare","Epic","Legendary","Champion"]
+UpgradeProbabilities=[100, 100, 23, 0]
+SpinCount = 4
+
+[EpicUpgradeToChampion]
+Rarities=["Epic","Legendary","Champion"]
+UpgradeProbabilities=[100, 100, 0]
+SpinCount = 4
+
+[LegendaryLuckyDrop]
+Rarities=["Legendary","Champion"]
+UpgradeProbabilities=[4, 0]
+SpinCount = 1
+
+[Tutorial2LuckyDrop]
+Rarities=["TutorialCommon","Tutorial2Rare"]
+UpgradeProbabilities=[100, 0]
+SpinCount = 3
+
+[Tutorial3LuckyDrop]
+Rarities=["TutorialCommon","Tutorial3Rare","Tutorial3Epic"]
+UpgradeProbabilities=[100, 100, 0]
+SpinCount = 3
+
+[LowArenaCommonLuckyDrop]
+Rarities=["Common","Rare","Epic","Legendary"]
+UpgradeProbabilities=[25, 23, 23, 0]
+SpinCount = 4
+
+[LowArenaRareLuckyDrop]
+Rarities=["Rare","Epic","Legendary"]
+UpgradeProbabilities=[23, 20, 0]
+SpinCount = 4
+
+[RareLuckyDrop3Spins]
+Rarities=["Rare","Epic","Legendary","Champion"]
+UpgradeProbabilities=[30, 30, 12, 0]
+SpinCount = 3
+
+[EpicLuckyDrop2Spins]
+Rarities=["Epic","Legendary","Champion"]
+UpgradeProbabilities=[36, 6, 0]
+SpinCount = 2
+
+[LowArenaCommonLuckyDropCard]
+Rarities=["CommonCardInCommon","RareCardInCommon","EpicCardInCommon","LegendaryCardInCommon"]
+UpgradeProbabilities=[25, 23, 23, 0]
+SpinCount = 4
+
+[LowArenaRareLuckyDropGold]
+Rarities=["RareGoldInRare","EpicGoldInRare","LegendaryGoldInRare"]
+UpgradeProbabilities=[24, 20, 0]
+SpinCount = 4

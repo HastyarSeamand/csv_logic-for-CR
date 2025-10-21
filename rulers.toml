@@ -1,0 +1,47 @@
+[Ruler_King]
+TID = "TID_RULER_KING"
+TID_TYPE = "TID_TYPE_RULER"
+TID_INFO = "TID_RULER_INFO_KING"
+IconSWF = "sc/ui_autochess_icons.sc"
+IconExportName = "ac_ruler_royale_king"
+Rarity = "Default"
+NotVisible = false
+NotInUse = false
+LogicAsset = "logic/autochess/rulers/king/ruler_king"
+DefaultSkin = "Ruler_Skin_King_Default"
+DefaultVfx = "Ruler_VFX_King_Default"
+[[Ruler_King.LevelRewards]]
+	Type = "RewardAugmentUnlock"
+[[Ruler_King.LevelRewards]]
+	Type = "RewardSkin"
+	Reward = "Ruler_Skin_King_T3_Green"
+[[Ruler_King.LevelRewards]]
+	Type = "RewardVfx"
+	Reward = "Ruler_VFX_King_Ruler_levelup"
+[[Ruler_King.LevelRewards]]
+	Type = "RewardSkin"
+	Reward = "Ruler_Skin_King_T3_Purple"
+
+[Ruler_MergeMaiden]
+TID = "TID_RULER_MERGE_MAIDEN"
+TID_TYPE = "TID_TYPE_RULER"
+TID_INFO = "TID_RULER_INFO_MERGE_MAIDEN"
+IconSWF = "sc/ui_autochess_icons.sc"
+IconExportName = "ac_ruler_merge_maiden"
+Rarity = "Default"
+NotVisible = false
+NotInUse = false
+LogicAsset = "logic/autochess/rulers/mergemaiden/ruler_mergemaiden"
+DefaultSkin = "Ruler_Skin_MergeMaiden_Default"
+DefaultVfx = "Ruler_VFX_Maiden_Default"
+[[Ruler_MergeMaiden.LevelRewards]]
+	Type = "RewardAugmentUnlock"
+[[Ruler_MergeMaiden.LevelRewards]]
+	Type = "RewardSkin"
+	Reward = "Ruler_Skin_MergeMaiden_T3_Green"
+[[Ruler_MergeMaiden.LevelRewards]]
+	Type = "RewardVfx"
+	Reward = "Ruler_VFX_Maiden_Ruler_levelup"
+[[Ruler_MergeMaiden.LevelRewards]]
+	Type = "RewardSkin"
+	Reward = "Ruler_Skin_MergeMaiden_T3_Yellow"

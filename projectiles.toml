@@ -1,0 +1,12 @@
+[GoblinBarrelSpell]
+	AlwaysResetAnimation=true
+
+[KingProjectile]
+	DamageScalingMode="KingTower"
+	StatsTags.Damage = "king_damage"
+
+[TowerPrincessProjectile]
+	DamageScalingMode="PrincessTower"
+
+[TowerKnifeThrowerProjectile]
+	StatsTags.Damage="damage"

@@ -1,0 +1,259 @@
+
+[Common]
+
+Gold = 300
+RandomCard = 700
+
+CardCommon = 90
+CardRare = 80
+CardEpic = 20
+
+SupportCardEpic = 80
+
+CardNewWeightFactor = 0.1
+CardCatchupWeightFactor = 1.0
+CardAmountMinFactor = 1.0
+CardAmountMaxFactor = 1.0
+
+ArenaData = "Common"
+
+Theme="Common"
+
+[Rare]
+
+Gold = 300
+ItemPool = 40
+RandomCard = 660
+
+CardCommon = 90
+CardRare = 80
+CardEpic = 20
+CardLegendary = 5
+CardChampion = 4
+
+SupportCardEpic = 80
+SupportCardLegendary = 50
+
+CardNewWeightFactor = 0.1
+CardCatchupWeightFactor = 2.0
+CardAmountMinFactor = 1.0
+CardAmountMaxFactor = 1.0
+
+ArenaData = "Rare"
+
+Theme="Rare"
+
+[Epic]
+
+Gold = 250
+WildcardCommon = 90
+WildcardRare = 80
+WildcardEpic = 40
+WildcardLegendary = 30
+WildcardChampion = 30
+ItemPool = 40
+RandomCard = 440
+
+CardCommon = 90
+CardRare = 80
+CardEpic = 40
+CardLegendary = 25
+CardChampion = 15
+
+SupportCardEpic = 80
+SupportCardLegendary = 50
+
+CardNewWeightFactor = 5.0
+CardCatchupWeightFactor = 3.0
+CardAmountMinFactor = 1.0
+CardAmountMaxFactor = 1.0
+
+ArenaData = "Epic"
+
+Theme="Epic"
+
+[Legendary]
+
+Gold = 250
+WildcardCommon = 90
+WildcardRare = 80
+WildcardEpic = 40
+WildcardLegendary = 30
+WildcardChampion = 30
+WildcardElite = 30
+WildcardShard = 30
+RandomCard = 420
+
+CardCommon = 90
+CardRare = 80
+CardEpic = 50
+CardLegendary = 35
+CardChampion = 30
+
+CardNewWeightFactor = 15.0
+CardCatchupWeightFactor = 6.0
+CardAmountMinFactor = 0.85
+CardAmountMaxFactor = 1.15
+
+ArenaData = "Legendary"
+
+Theme="Legendary"
+
+[Champion]
+
+BookCardCommon = 100
+BookCardRare = 100
+BookCardEpic = 80
+BookCardLegendary = 80
+BookCardAll = 50
+WildcardElite = 35
+FullEvolution = 20
+
+ArenaData = "Champion"
+
+Theme="Champion"
+
+[Common100]
+
+[Rare100]
+
+[Epic100]
+
+[Epic22]
+
+[Epic25]
+
+[Legendary100]
+
+[Legendary25]
+
+[Legendary15]
+
+[TutorialCommon]
+Gold = 100
+ArenaData = "TutorialCommon"
+Theme="Common"
+
+[Tutorial2Rare]
+FixedCard = "MiniPekka"
+FixedAmount = 1
+ArenaData = "Tutorial2Rare"
+Theme="Rare"
+
+[Tutorial3Rare]
+FixedCard = "Archer"
+FixedAmount = 3
+ArenaData = "Tutorial3Rare"
+Theme="Rare"
+
+[Tutorial3Epic]
+FixedCard = "Archer"
+FixedAmount = 5
+ArenaData = "Tutorial3Epic"
+Theme="Epic"
+
+[RareInRare]
+
+[RareInCommonPlus]
+
+[LegendaryInEpic]
+
+[LegendaryInLegendary]
+
+[RareInRare3Spins]
+
+[EpicInRare3Spins]
+
+[LegendaryInRare3Spins]
+
+[CommonCardInCommon]
+
+RandomCard = 1000
+
+CardCommon = 90
+CardRare = 80
+CardEpic = 20
+
+CardNewWeightFactor = 0.1
+CardCatchupWeightFactor = 1.0
+CardAmountMinFactor = 1.0
+CardAmountMaxFactor = 1.0
+
+ArenaData = "Common"
+
+Theme="Common"
+
+[RareCardInCommon]
+
+RandomCard = 1000
+
+CardCommon = 90
+CardRare = 80
+CardEpic = 20
+CardLegendary = 5
+CardChampion = 4
+
+CardNewWeightFactor = 0.1
+CardCatchupWeightFactor = 2.0
+CardAmountMinFactor = 1.0
+CardAmountMaxFactor = 1.0
+
+ArenaData = "Rare"
+
+Theme="Rare"
+
+[EpicCardInCommon]
+
+RandomCard = 1000
+
+CardCommon = 90
+CardRare = 80
+CardEpic = 40
+CardLegendary = 25
+CardChampion = 15
+
+CardNewWeightFactor = 5.0
+CardCatchupWeightFactor = 3.0
+CardAmountMinFactor = 1.0
+CardAmountMaxFactor = 1.0
+
+ArenaData = "Epic"
+
+Theme="Epic"
+
+[LegendaryCardInCommon]
+
+RandomCard = 1000
+
+CardCommon = 90
+CardRare = 80
+CardEpic = 50
+CardLegendary = 35
+CardChampion = 30
+
+CardNewWeightFactor = 15.0
+CardCatchupWeightFactor = 6.0
+CardAmountMinFactor = 1.0
+CardAmountMaxFactor = 1.0
+
+ArenaData = "Legendary"
+
+Theme="Legendary"
+
+[RareGoldInRare]
+
+Gold = 1000
+ArenaData = "Rare"
+Theme = "Rare"
+
+[EpicGoldInRare]
+
+Gold = 1000
+ArenaData = "Epic"
+Theme = "Epic"
+
+[LegendaryGoldInRare]
+
+Gold = 1000
+ArenaData = "Legendary"
+Theme = "Legendary"

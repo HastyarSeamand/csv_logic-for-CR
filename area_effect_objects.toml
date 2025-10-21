@@ -1,0 +1,238 @@
+
+
+[BoostAOE_Event_LoveBuff]
+	Rarity="Epic"
+	LifeDuration=15000
+	Radius=1000
+    ScaledEffect="Boost_Object_LoveBuff"
+    HitSpeed=300
+    NoEffectToCrownTowers=true
+    Buff="Event_LoveBuff"
+    BuffTime=15000
+    HitsGround=true
+    HitsAir=true
+    Boost=true
+
+[LoveBuffAOE]
+	Rarity="Epic"
+	LifeDuration=15000
+	Radius=3000
+    HitEffect="Love_Buff_AOE_hit"
+    HitSpeed=3000
+    HitSpeedOffset=2500
+    NoEffectToCrownTowers=true
+    Buff="LoveCharm"
+    BuffTime=4000
+    OnlyEnemies=true
+    HitsGround=true
+    HitsAir=true
+    FollowBehaviour="FollowParent"
+
+
+[Event_Global_Lightning_Charge1]
+	Rarity="Epic"
+    OnStartingAction="GlobalLightningSpawnCharge2"
+    LoopingEffect="GlobalLightning_Charging1"
+    LifeDuration=5000
+
+[Event_Global_Lightning_Charge2]
+	Rarity="Epic"
+    OnStartingAction="GlobalLightning"
+    LoopingEffect="GlobalLightning_Charging2"
+    LifeDuration=5000
+
+[Event_Global_Lightning]
+	Rarity="Epic"
+	LifeDuration=3000
+	Radius=40000
+    HitSpeed=950
+    HitBiggestTargets=true
+    NoEffectToCrownTowers=true
+    LoopingEffect="GlobalLightning_deploy"
+    Projectile="LighningSpell"
+    IgnoreBuildings=true
+    HitsGround=true
+    HitsAir=true
+    ProjectileStartHeight=10
+
+[Event_Global_Lightning_Setup]
+    OnStartingAction="GlobalLightning_Action"
+    LoopingEffect="GlobalLightning_Charging2"
+    LifeDuration=1000
+
+[Event_Global_Rage_Setup]
+    OnStartingAction="GlobalRage_Action"
+    LoopingEffect="Spell_rage_effect_small"
+    LifeDuration=500
+
+[Event_Global_Heal_Setup]
+    OnStartingAction="GlobalHeal_Action"
+    LoopingEffect="Global_Healing_Setup"
+    LifeDuration=500
+
+[Event_Global_Freeze_Setup]
+    OnStartingAction="GlobalFreeze_Action"
+    LoopingEffect="Global_Freeze_Setup"
+    LifeDuration=500
+
+[Event_Global_Invisibility_Setup]
+    OnStartingAction="GlobalInvisibility_Action"
+    ScaledEffect="Invisibilty_Fog_Setup"
+    LifeDuration=500
+
+[Event_Global_Clone_Setup]
+    OnStartingAction="GlobalClone_Action"
+    ScaledEffect="Global_Clone_Setup"
+    LifeDuration=500
+
+[Event_Global_Rage]
+	Rarity="Epic"
+	LifeDuration=8000
+	Radius=40000
+    LoopingEffect="GlobalRage_mode"
+    HitSpeed=50
+    Buff="SuperRage"
+    BuffTime=500
+    CapBuffTimeToAreaEffectTime=true
+    OnlyOwnTroops=true
+    HitsGround=true
+    HitsAir=true
+
+[Event_Global_Heal]
+	Rarity="Epic"
+	LifeDuration=8000
+	Radius=40000
+    LoopingEffect="Global_Healing"
+    HitSpeed=50
+    Buff="Heal"
+    BuffTime=500
+    CapBuffTimeToAreaEffectTime=true
+    IgnoreBuildings=true
+    OnlyOwnTroops=true
+    HitsGround=true
+    HitsAir=true
+
+[Event_Global_Freeze]
+	Rarity="Epic"
+	LifeDuration=6000
+	Radius=40000
+    LoopingEffect="Global_Freeze_blizzard"
+    HitSpeed=50
+    Buff="Freeze"
+    BuffTime=500
+    CapBuffTimeToAreaEffectTime=true
+    OnlyEnemies=true
+    HitsGround=true
+    HitsAir=true
+
+[Event_Global_Invisibility]
+	Rarity="Epic"
+	LifeDuration=6000
+	Radius=40000
+    LoopingEffect="Invisibilty_Fog"
+    HitSpeed=50
+    Buff="Invisibility"
+    BuffTime=500
+    CapBuffTimeToAreaEffectTime=true
+    IgnoreBuildings=true
+    OnlyOwnTroops=true
+    HitsGround=true
+    HitsAir=true
+
+[TriWizardSpawn]
+    OnStartingAction="TriWizardSpawn"
+
+[DarkMagicAOE]
+    Rarity = "Common"
+	LifeDuration = 4000
+	Radius = 2500
+	HitSpeed = -1
+    Damage=100 
+	OnlyEnemies = true
+	HitsGround = false
+	HitsAir = false
+    StatsTags.LifeDuration = "duration"
+    StatsTags.Radius = "radius"
+
+[DarkMagicAOE.OnStartingAction]
+    ClassType="ActionGroup"
+    SubActionsDelay = [ 0, 500]
+
+[[DarkMagicAOE.OnStartingAction.SubActions]]
+	ClassType="ActionPlayEffect"
+    Effect="PaoloFirstEffectEverIntro"
+
+[[DarkMagicAOE.OnStartingAction.SubActions]]
+    ClassType="ActionLaserBall"
+    DetectionRadius=2500
+    FirstHitDelay=1000
+    HitFrequency=1000
+    MaxUnitPerActionList = [1,4]
+    MainEffectList = [ "PaoloFirstEffectEver" ]
+    HitFilter="ForcedCharacterTargets"
+    StatsTags.MinUnits_2 = "targets_mid_lower"
+    StatsTags.MaxUnits_2 = "targets_mid_upper"
+    StatsTags.MinUnits_3 = "targets_more_lower"
+
+
+[[DarkMagicAOE.OnStartingAction.SubActions.OnDetectedUnitActionList]]
+    ClassType="ActionSpawn"
+    SpawnType="BuffType"
+    SpawnTime=100
+    [DarkMagicAOE.OnStartingAction.SubActions.OnDetectedUnitActionList.SpawnData]
+        Name="DarkMagicAOE_Damage_lv3"
+        Rarity = "Common"	
+	    DamagePerSecond = 1250
+        CrownTowerDamagePerHit = 19  
+	    HitFrequency = 100
+        AddAsIndividualBuff=true
+        HitEffect="PaoloFirstEffectEverStrong"
+        StatsTags.DamagePerHit = "damage_first_target"
+        StatsTags.CrownTowerDamagePerHit = "damage_first_tower_target"
+
+[DarkMagicAOE.OnStartingAction.SubActions.OnDetectedUnitActionList.NextAction]
+    ClassType="ActionPlayEffect"
+    Effect="Paolo_zap_effect3"
+
+[[DarkMagicAOE.OnStartingAction.SubActions.OnDetectedUnitActionList]]
+    ClassType="ActionSpawn"
+    SpawnType="BuffType"
+    SpawnTime=100
+    [DarkMagicAOE.OnStartingAction.SubActions.OnDetectedUnitActionList.SpawnData]
+        Name="DarkMagicAOE_Damage_lv2"
+        Rarity = "Common"	
+	    DamagePerSecond = 625
+        CrownTowerDamagePerHit = 10  
+	    HitFrequency = 100
+        AddAsIndividualBuff=true
+        HitEffect="PaoloFirstEffectEverMedium"
+        StatsTags.DamagePerHit = "damage_mid_targets"
+        StatsTags.CrownTowerDamagePerHit = "damage_mid_tower_targets"
+
+[DarkMagicAOE.OnStartingAction.SubActions.OnDetectedUnitActionList.NextAction]
+    ClassType="ActionPlayEffect"
+    Effect="Paolo_zap_effect2"
+
+[[DarkMagicAOE.OnStartingAction.SubActions.OnDetectedUnitActionList]]
+    ClassType="ActionSpawn"
+    SpawnType="BuffType"
+    SpawnTime=100
+    [DarkMagicAOE.OnStartingAction.SubActions.OnDetectedUnitActionList.SpawnData]
+        Name="DarkMagicAOE_Damage_lv1"
+        Rarity = "Common"	
+	    DamagePerSecond = 297
+        CrownTowerDamagePerHit = 7  
+	    HitFrequency = 100
+        AddAsIndividualBuff=true
+        HitEffect="PaoloFirstEffectEverLow"
+        StatsTags.DamagePerHit = "damage_more_targets"
+        StatsTags.CrownTowerDamagePerHit = "damage_more_tower_targets"
+
+[DarkMagicAOE.OnStartingAction.SubActions.OnDetectedUnitActionList.NextAction]
+    ClassType="ActionPlayEffect"
+    Effect="Paolo_zap_effect"
+    
+
+[DarkMagicAOE.OnLifeTimeEndAction]
+	ClassType="ActionPlayEffect"
+    Effect="PaoloFirstEffectEverOutro"

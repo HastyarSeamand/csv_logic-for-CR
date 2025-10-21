@@ -1,0 +1,108 @@
+
+[MightyMiner]
+	Stats = "mighty_miner"
+
+[GoblinMachine]
+	Stats = "goblin_machine"
+	AutoChessForm = "logic/autochess/draft_units/chess_goblin_machine"
+
+[SuspiciousBush]
+	Stats = "suspicious_bush"
+
+[Goblinstein]
+	Stats = "goblinstein_doctor"
+
+[LittlePrince]
+	Stats = "little_prince"
+
+[Knight]
+	Stats = "knight"
+	AutoChessForm = "logic/autochess/draft_units/chess_knight"
+
+[GiantBuffer]
+	Stats = "giantbuffer"
+
+[Berserker]
+	Stats = "berserker"
+
+[BossBandit]
+	Stats = "boss_bandit"
+
+[BattleHealer]
+	Stats = "battlehealer"
+
+[MovingCannon]
+	Stats = "MovingCannon"
+
+[MergeMaiden_Normal]
+	Stats = "MergeMaiden_Normal"
+
+[MergeMaiden_Mounted]
+	Stats = "MergeMaiden_Mounted"
+
+[Skeletons]
+	Stats = "skeleton"
+
+[FireSpirits]
+	Stats = "firespirits"
+
+[IceWizard]
+	Stats = "ice_wizard"
+
+
+[Archer]
+	AutoChessForm = "logic/autochess/draft_units/chess_archer"
+
+[ArcherQueen]
+	AutoChessForm = "logic/autochess/draft_units/chess_archer_queen"
+
+[Assassin]
+	AutoChessForm = "logic/autochess/draft_units/chess_bandit"
+
+[Barbarians]
+	AutoChessForm = "logic/autochess/draft_units/chess_barbarian"
+
+[Bomber]
+	AutoChessForm = "logic/autochess/draft_units/chess_bomber"
+
+[BlowdartGoblin]
+	AutoChessForm = "logic/autochess/draft_units/chess_dart_goblin"
+
+[ElectroWizard]
+	Stats = "electro_wizard"
+
+[AxeMan]
+	AutoChessForm = "logic/autochess/draft_units/chess_executioner"
+
+[GiantSkeleton]
+	AutoChessForm = "logic/autochess/draft_units/chess_giant_skeleton"
+
+[Goblins]
+	AutoChessForm = "logic/autochess/draft_units/chess_goblin"
+
+[GoldenKnight]
+	AutoChessForm = "logic/autochess/draft_units/chess_golden_knight"
+
+[MegaKnight]
+	AutoChessForm = "logic/autochess/draft_units/chess_mega_knight"
+
+[Pekka]
+	AutoChessForm = "logic/autochess/draft_units/chess_pekka"
+
+[Prince]
+	AutoChessForm = "logic/autochess/draft_units/chess_prince"
+
+[Princess]
+	AutoChessForm = "logic/autochess/draft_units/chess_princess"
+
+[Ghost]
+	AutoChessForm = "logic/autochess/draft_units/chess_royal_ghost"
+
+[SkeletonKing]
+	AutoChessForm = "logic/autochess/draft_units/chess_skeleton_king"
+
+[SpearGoblins]
+	AutoChessForm = "logic/autochess/draft_units/chess_spear_goblin"
+
+[Valkyrie]
+	AutoChessForm = "logic/autochess/draft_units/chess_valkyrie"

@@ -1,0 +1,257 @@
+
+[DefaultCharacterTargets]
+MatchTeamEnemy=true
+MatchTypeCharacters=true
+FilterHidden=true
+FilterUnderground=true
+FilterCloning=true
+FilterInvisible=true
+FilterIfNoHitpointComponent=true
+FilterTags="NO_CHECKAVOIDANCE,NO_CHECKCOLLISIONS"
+FilterDescriptionTID="TID_TARGETS_AIR_AND_GROUND"
+
+[areadamage_filter]
+MatchTeamEnemy=true
+MatchTypeCharacters=true
+FilterHidden=true
+FilterUnderground=true
+FilterDashImmune=true
+FilterCloning=true
+FilterIfNoHitpointComponent=true
+FilterDescriptionTID="TID_TARGETS_AIR_AND_GROUND"
+
+[GroundCharacterTargets]
+MatchTeamEnemy=true
+MatchTypeCharacters=true
+FilterHidden=true
+FilterUnderground=true
+FilterDashImmune=true
+FilterDragging=true
+FilterCloning=true
+FilterJumping=true
+FilterFlying=true
+FilterInvisible=true
+FilterIfNoHitpointComponent=true
+FilterTags="NO_CHECKAVOIDANCE,NO_CHECKCOLLISIONS"
+
+[GroundCharacterTargetsNoBuildings]
+MatchTeamEnemy=true
+MatchTypeCharacters=true
+FilterHidden=true
+FilterUnderground=true
+FilterBuildings=true
+FilterDashImmune=true
+FilterDragging=true
+FilterCloning=true
+FilterJumping=true
+FilterFlying=true
+FilterInvisible=true
+FilterIfNoHitpointComponent=true
+FilterTags="NO_CHECKAVOIDANCE,NO_CHECKCOLLISIONS"
+
+[ForcedCharacterTargets]
+MatchTeamEnemy=true
+MatchTypeCharacters=true
+FilterHidden=true
+FilterIfNoHitpointComponent=true
+FilterTags="NO_CHECKAVOIDANCE,NO_CHECKCOLLISIONS"
+
+[PassiveForcedHitGroundCharacters]
+MatchTeamEnemy=true
+MatchTypeCharacters=true
+FilterHidden=true
+FilterUnderground=true
+FilterTags="NO_CHECKCOLLISIONS"
+FilterIfNoHitpointComponent=true
+FilterFlying=true
+
+[passive_hit_ground_characters_not_same]
+    MatchTeamEnemy=true
+    MatchTypeCharacters=true
+    FilterHidden=true
+    FilterUnderground=true
+    FilterDashImmune=true
+    FilterDragging=true
+    FilterCloning=true
+    FilterJumping=true
+    FilterTags="NO_CHECKCOLLISIONS"
+    FilterIfNoHitpointComponent=true
+    FilterBuildings=true
+    FilterTowers=true
+    FilterFlying=true
+    FilterSameObjects=true
+
+[normal_pushback_ground_characters_not_same]
+    MatchTeamEnemy=true
+    MatchTypeCharacters=true
+    FilterHidden=true
+    FilterUnderground=true
+    FilterDashImmune=true
+    FilterDragging=true
+    FilterCloning=true
+    FilterJumping=true
+    FilterTags="NO_CHECKCOLLISIONS"
+    FilterIfNoHitpointComponent=true
+    FilterBuildings=true
+    FilterTowers=true
+    FilterFlying=true
+    FilterSameObjects=true
+    FilterPushbackIgnore=true
+
+[default_targets_no_towers]
+    MatchTeamEnemy=true
+    MatchTypeCharacters=true
+    FilterHidden=true
+    FilterUnderground=true
+    FilterCloning=true
+    FilterInvisible=true
+    FilterIfNoHitpointComponent=true
+    FilterTags="NO_CHECKAVOIDANCE,NO_CHECKCOLLISIONS"
+    FilterDescriptionTID="TID_TARGETS_AIR_AND_GROUND"
+    FilterTowers=true
+
+[characters_no_buildings_no_deflecting_including_invisible]
+    MatchTeamEnemy=true
+    MatchTypeCharacters=true
+    FilterHidden=true
+    FilterUnderground=true
+    FilterBuildings=true
+    FilterDashImmune=true
+    FilterDragging=true
+    FilterCloning=true
+    FilterIfNoHitpointComponent=true
+    FilterTags="NO_CHECKAVOIDANCE,NO_CHECKCOLLISIONS,DEFLECTING_PROJECTILES"
+
+[characters_no_deflecting_including_invisible]
+    MatchTeamEnemy=true
+    MatchTypeCharacters=true
+    FilterHidden=true
+    FilterUnderground=true
+    FilterDashImmune=true
+    FilterDragging=true
+    FilterCloning=true
+    FilterIfNoHitpointComponent=true
+    FilterTags="NO_CHECKAVOIDANCE,NO_CHECKCOLLISIONS,DEFLECTING_PROJECTILES"
+    FilterDescriptionTID="TID_TARGETS_AIR_AND_GROUND"
+
+[default_targets_including_invisible]
+    MatchTeamEnemy=true
+    MatchTypeCharacters=true
+    FilterHidden=true
+    FilterUnderground=true
+    FilterCloning=true
+    FilterIfNoHitpointComponent=true
+    FilterTags="NO_CHECKAVOIDANCE,NO_CHECKCOLLISIONS"
+    FilterDescriptionTID="TID_TARGETS_AIR_AND_GROUND"
+
+[default_targets_no_towers_including_invisible]
+    MatchTeamEnemy=true
+    MatchTypeCharacters=true
+    FilterHidden=true
+    FilterUnderground=true
+    FilterCloning=true
+    FilterIfNoHitpointComponent=true
+    FilterTags="NO_CHECKAVOIDANCE,NO_CHECKCOLLISIONS"
+    FilterDescriptionTID="TID_TARGETS_AIR_AND_GROUND"
+    FilterTowers=true
+
+[default_character_targets_no_buildings]
+    MatchTeamEnemy=true
+    MatchTypeCharacters=true
+    FilterHidden=true
+    FilterUnderground=true
+    FilterBuildings=true
+    FilterDashImmune=true
+    FilterDragging=true
+    FilterCloning=true
+    FilterJumping=true
+    FilterInvisible=true
+    FilterIfNoHitpointComponent=true
+    FilterTags="NO_CHECKAVOIDANCE,NO_CHECKCOLLISIONS"
+
+[DefaultCharacterTargetsOwnTeam]
+MatchTeamOwn=true
+MatchTypeCharacters=true
+FilterHidden=true
+FilterUnderground=true
+FilterDashImmune=true
+FilterDragging=true
+FilterCloning=true
+FilterJumping=true
+FilterInvisible=true
+FilterIfNoHitpointComponent=true
+FilterTags="NO_CHECKAVOIDANCE,NO_CHECKCOLLISIONS"
+FilterDescriptionTID="TID_TARGETS_AIR_AND_GROUND"
+FilterTowers = true
+FilterSummoner = true
+
+[friendly_troops_for_chef_giant_buffer]
+    MatchTeamOwn = true
+    MatchTypeCharacters = true
+    FilterBuildings=true
+    FilterHidden=true
+    FilterIfNoHitpointComponent = true
+    FilterSummoner = true
+    FilterPrincessTowers = true
+    FilterTags="NO_GIANTBUFFER_CHEF_ENCHANTMENT"
+
+[friendly_skeletons_can_be_dead]
+    MatchTeamOwn = true
+    MatchTypeCharacters = true
+    FilterDead = false
+    FilterIfNoHitpointComponent = true
+    FilterSummoner = true
+    FilterPrincessTowers = true
+    FilterClones = true
+    IncludeCharactersWithData = ["Skeleton", "Skeleton_EV1", "SkeletonWarrior"]
+
+[friendly_troop_no_buildings]
+    MatchTeamOwn = true
+    MatchTypeCharacters = true
+    FilterBuildings=true
+    FilterSummoner = true
+    FilterPrincessTowers = true
+
+[all_characters_from_both_teams]
+    MatchTeamOwn = true
+    MatchTeamEnemy = true
+    MatchTypeCharacters=true
+    FilterBuildings=true
+    FilterHidden=true
+    FilterUnderground=false
+    FilterDashImmune=false
+    FilterDragging=true
+    FilterCloning=true
+    FilterJumping=true
+    FilterInvisible=false
+    FilterIfNoHitpointComponent=true
+    FilterTags="NO_CHECKAVOIDANCE,NO_CHECKCOLLISIONS"
+    FilterDescriptionTID="TID_TARGETS_AIR_AND_GROUND"
+    FilterTowers = true
+    FilterSummoner = true
+
+[enemy_troops_no_dash]
+	MatchTeamEnemy=true
+	MatchTypeCharacters=true
+
+	FilterBuildings=true
+    FilterSummoner = true
+    FilterPrincessTowers = true
+	FilterUnderground=true
+	FilterCloning=true
+	FilterIfNoHitpointComponent=true
+	FilterTags="NO_CHECKAVOIDANCE,NO_CHECKCOLLISIONS,DASHING"
+	FilterDescriptionTID="TID_TARGETS_AIR_AND_GROUND"
+
+[enemy_troops_for_vines]
+	MatchTeamEnemy=true
+	MatchTypeCharacters=true
+	FilterBuildings=false
+	FilterSummoner = false
+	FilterPrincessTowers =false
+	FilterUnderground=true
+	FilterCloning=false
+	FilterIfNoHitpointComponent=true
+	FilterTags="NO_CHECKAVOIDANCE,NO_CHECKCOLLISIONS"
+	FilterDescriptionTID="TID_TARGETS_AIR_AND_GROUND"
+	FilterDashImmune=true

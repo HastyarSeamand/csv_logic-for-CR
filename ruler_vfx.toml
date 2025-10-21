@@ -1,0 +1,34 @@
+[Ruler_VFX_King_Default]
+TID = "TID_RULER_VFX_KING_DEFAULT"
+DescriptionTID = "TID_RULER_VFX_KING_DEFAULT_DESC"
+IconSWF = "sc/ui_cosmetic_collection.sc"
+IconExportName = "thumb_vfx_01"
+AssetPath = "logic/autochess/ruler_attack_vfx_skins/t4/king_def/ra_t4_king_01"
+Tier = "T4"
+SpecificToRuler = "Ruler_King"
+
+[Ruler_VFX_King_Ruler_levelup]
+TID = "TID_RULER_VFX_KING_RULER_LEVELUP"
+DescriptionTID = "TID_RULER_VFX_KING_RULER_LEVELUP_DESC"
+IconSWF = "sc/ui_cosmetic_collection.sc"
+IconExportName = "thumb_vfx_03"
+AssetPath = "logic/autochess/ruler_attack_vfx_skins/t3/king_levelup/ra_t3_king_levelup_01"
+Tier = "T3"
+
+[Ruler_VFX_Maiden_Default]
+TID = "TID_RULER_VFX_MAIDEN_DEFAULT"
+DescriptionTID = "TID_RULER_VFX_MAIDEN_DEFAULT_DESC"
+IconSWF = "sc/ui_cosmetic_collection.sc"
+IconExportName = "thumb_vfx_02"
+AssetPath = "logic/autochess/ruler_attack_vfx_skins/t4/merge_maiden_def/ra_t4_merge_maiden_01"
+Tier = "T4"
+SpecificToRuler = "Ruler_MergeMaiden"
+
+[Ruler_VFX_Maiden_Ruler_levelup]
+TID = "TID_RULER_VFX_MAIDEN_RULER_LEVELUP"
+DescriptionTID = "TID_RULER_VFX_MAIDEN_RULER_LEVELUP_DESC"
+IconSWF = "sc/ui_cosmetic_collection.sc"
+IconExportName = "thumb_vfx_04"
+AssetPath = "logic/autochess/ruler_attack_vfx_skins/t3/merge_maiden_levelup/ra_t3_merge_maiden_levelup_01"
+Tier = "T3"
+

@@ -1,0 +1,71 @@
+[Ruler_Skin_King_Default]
+TID = "TID_RULER_SKIN_KING_DEFAULT"
+DescriptionTID = "TID_RULER_SKIN_KING_DEFAULT_DESC"
+IconSWF = "sc/ui_cosmetic_collection.sc"
+IconExportName = "thumb_skin_king_default"
+AssetPath = "logic/autochess/rulers/king/skin_king_default"
+Tier = "T4"
+SpecificToRuler = "Ruler_King"
+
+[Ruler_Skin_King_T3_Purple]
+TID = "TID_RULER_SKIN_KING_T3_PURPLE"
+DescriptionTID = "TID_RULER_SKIN_KING_T3_PURPLE_DESC"
+IconSWF = "sc/ui_cosmetic_collection.sc"
+IconExportName = "thumb_skin_king_03"
+AssetPath = "logic/autochess/rulers/king/skin_king_purple"
+Tier = "T3"
+SpecificToRuler = "Ruler_King"
+
+[Ruler_Skin_King_T3_Green]
+TID = "TID_RULER_SKIN_KING_T3_GREEN"
+DescriptionTID = "TID_RULER_SKIN_KING_T3_GREEN_DESC"
+IconSWF = "sc/ui_cosmetic_collection.sc"
+IconExportName = "thumb_skin_king_01"
+AssetPath = "logic/autochess/rulers/king/skin_king_white"
+Tier = "T3"
+SpecificToRuler = "Ruler_King"
+
+[Ruler_Skin_MergeMaiden_Default]
+TID = "TID_RULER_SKIN_MERGEMAIDEN_DEFAULT"
+DescriptionTID = "TID_RULER_SKIN_MERGEMAIDEN_DEFAULT_DESC"
+IconSWF = "sc/ui_cosmetic_collection.sc"
+IconExportName = "thumb_skin_maiden_default"
+AssetPath = "logic/autochess/rulers/mergemaiden/skin_mergemaiden_default"
+Tier = "T4"
+SpecificToRuler = "Ruler_MergeMaiden"
+
+[Ruler_Skin_MergeMaiden_T3_Green]
+TID = "TID_RULER_SKIN_MERGEMAIDEN_T3_GREEN"
+DescriptionTID = "TID_RULER_SKIN_MERGEMAIDEN_T3_GREEN_DESC"
+IconSWF = "sc/ui_cosmetic_collection.sc"
+IconExportName = "thumb_skin_maiden_02"
+AssetPath = "logic/autochess/rulers/mergemaiden/skin_mergemaiden_green"
+Tier = "T3"
+SpecificToRuler = "Ruler_MergeMaiden"
+
+[Ruler_Skin_MergeMaiden_T3_Yellow]
+TID = "TID_RULER_SKIN_MERGEMAIDEN_T3_YELLOW"
+DescriptionTID = "TID_RULER_SKIN_MERGEMAIDEN_T3_YELLOW_DESC"
+IconSWF = "sc/ui_cosmetic_collection.sc"
+IconExportName = "thumb_skin_maiden_01"
+AssetPath = "logic/autochess/rulers/mergemaiden/skin_mergemaiden_yellow"
+Tier = "T3"
+SpecificToRuler = "Ruler_MergeMaiden"
+
+[Ruler_Skin_King_T3_Icy]
+TID = "TID_RULER_SKIN_KING_T3_ICY"
+DescriptionTID = "TID_RULER_SKIN_KING_T3_ICY_DESC"
+IconSWF = "sc/ui_cosmetic_collection.sc"
+IconExportName = "thumb_skin_king_02"
+AssetPath = "logic/autochess/rulers/king/skin_king_ghost"
+Tier = "T3"
+SpecificToRuler = "Ruler_King"
+
+[Ruler_Skin_MergeMaiden_T3_Red]
+TID = "TID_RULER_SKIN_MERGEMAIDEN_T3_RED"
+DescriptionTID = "TID_RULER_SKIN_MERGEMAIDEN_T3_RED_DESC"
+IconSWF = "sc/ui_cosmetic_collection.sc"
+IconExportName = "thumb_skin_maiden_03"
+AssetPath = "logic/autochess/rulers/mergemaiden/skin_mergemaiden_red"
+Tier = "T3"
+SpecificToRuler = "Ruler_MergeMaiden"

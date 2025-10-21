@@ -1,0 +1,345 @@
+
+[Default]
+ Enabled=true
+ TID='TID_TRAIL_ROYALS'
+ GameMode='Ladder'
+ GameModeTutorial='PvE_Tutorial'
+ TrophyRoadStorageKey=''
+ DeckStorageKey='Royals'
+ InitialSupportCard='King_PrincessTowers'
+ ThemeConfiguration='RoyalRoad'
+ EnablerType='Always'
+ OrderIndex=0
+ ShowFriends=true
+ BotsEnabled=true
+
+ [Default.CardConfig]
+  AllowedOrBannedEvolutions='*'
+
+ [[Default.TrophyRoads]]
+  TrophyRoad='Default'
+
+[GoblinRoadPlatform]
+ Enabled=true
+ TID='TID_TRAIL_GOBLINS'
+ GameMode='Goblin_Ladder'
+ GameModeTutorial='GoblinTrail_Tutorial'
+ TrophyRoadStorageKey='goblin-road'
+ DeckStorageKey='Goblins'
+ InitialSupportCard='GoblinQueen_SpawnAbility'
+ ThemeConfiguration='GoblinRoad'
+ EnablerType='Chronos'
+ OrderIndex=1
+ StarterDeck='GoblinJourney_StarterDeck'
+ BotsEnabled=true
+ TutorialKey='GoblinRoad_Tutorial'
+ TutorialNPCs=['GoblinTutorial1']
+ UnlockArenaIndex=12
+ ShowFriends=true
+ Badge='GoblinJourney2024'
+
+ [[GoblinRoadPlatform.TrophyRoads]]
+  TrophyRoad='GoblinRoad'
+
+[PathOfLegends]
+ Enabled=true
+ TID='TID_TRAIL_POL'
+ GameMode='Ranked1v1'
+ TrophyRoadStorageKey=''
+ DeckStorageKey='PathOfLegends'
+ InitialSupportCard='King_PrincessTowers'
+ ThemeConfiguration='PathOfLegends'
+ EnablerType='Always'
+ OrderIndex=2
+ BotsEnabled=false
+ UnlockArenaIndex=15
+ ShowFriends=true
+
+ [PathOfLegends.CardConfig]
+  AllowedOrBannedEvolutions='*'
+
+[Royals_2v2]
+ Enabled=true
+ TID='TID_TRAIL_ROYALS_2V2'
+ GameMode='Ladder_TeamVsTeam'
+ GameModeTutorial='PvE_Tutorial'
+ TrophyRoadStorageKey='Royals_2v2'
+ DeckStorageKey='Royals'
+ SelectedDeckKey='Royals_2v2'
+ InitialSupportCard='King_PrincessTowers'
+ ThemeConfiguration='Royals_2v2'
+ EnablerType='Chronos'
+ OrderIndex=3
+ UnlockArenaIndex=8
+ ShowFriends=false
+ BotsEnabled=false
+ Badge='Royals2v2_2024'
+
+ [[Royals_2v2.ScoreSystems]]
+  IndexType='Arena'
+  Start=1
+  End=1
+  ScoreType='WinLoseNormal'
+  UseLeaderboard=false
+  MatchmakingConstraintGroup='TrailCommonClimber'
+
+ [[Royals_2v2.ScoreSystems]]
+  IndexType='Arena'
+  Start=2
+  End=2
+  ScoreType='EloScore'
+  UseLeaderboard=true
+  MinRankForBadge=8
+  MatchmakingConstraintGroup='TrailCommonCompetitor'
+
+ [[Royals_2v2.TrophyRoads]]
+  TrophyRoad='Royals_2v2'
+
+[Royals_2v2_2025]
+ Enabled=true
+ TID='TID_TRAIL_ROYALS_2V2'
+ GameMode='Ladder_TeamVsTeam'
+ GameModeTutorial='PvE_Tutorial'
+ TrophyRoadStorageKey='Royals_2v2_2025'
+ DeckStorageKey='Royals'
+ SelectedDeckKey='Royals_2v2_2025'
+ InitialSupportCard='King_PrincessTowers'
+ ThemeConfiguration='Royals_2v2_2025'
+ CollectionLens='Royals'
+ EnablerType='Chronos'
+ OrderIndex=3
+ ChestOrder=''
+ UnlockArenaIndex=11
+ ShowFriends=false
+ BotsEnabled=false
+ ArenaCountTID='TID_2V2_ARENA_CAPS'
+ Badge='Royals2v2_2024'
+
+ [[Royals_2v2_2025.ScoreSystems]]
+  IndexType='Arena'
+  Start=1
+  End=1
+  ScoreType='WinLoseNormal'
+  UseLeaderboard=false
+  MatchmakingConstraintGroup='TrailCommonClimber'
+
+ [[Royals_2v2_2025.ScoreSystems]]
+  IndexType='Arena'
+  Start=2
+  End=2
+  ScoreType='EloScore'
+  UseLeaderboard=true
+  MinRankForBadge=9999
+  MatchmakingConstraintGroup='TrailCommonCompetitor'
+
+ [[Royals_2v2_2025.TrophyRoads]]
+  TrophyRoad='Royals_2v2_2025'
+
+[Classic]
+ Enabled=true
+ TID='TID_TRAIL_CLASSIC'
+ GameMode='Ladder_Classic'
+ TrophyRoadStorageKey='Classic'
+ DeckStorageKey='Classic'
+ InitialSupportCard='King_PrincessTowers'
+ ThemeConfiguration='Classic'
+ EnablerType='Chronos'
+ OrderIndex=6
+ UnlockArenaIndex=8
+ ShowFriends=false
+ BotsEnabled=false
+ ArenaCountTID='TID_ARENA_CAPS'
+ Badge='ClassicRoyale_2025'
+
+ [[Classic.ScoreSystems]]
+  IndexType='Arena'
+  Start=1
+  End=1
+  ScoreType='WinLoseNormal'
+  UseLeaderboard=false
+  MatchmakingConstraintGroup='TrailCommonClimber'
+
+ [[Classic.ScoreSystems]]
+  IndexType='Arena'
+  Start=2
+  End=2
+  ScoreType='EloScore'
+  UseLeaderboard=true
+  MinRankForBadge=1000
+  MatchmakingConstraintGroup='TrailCommonCompetitor'
+
+ [Classic.CardConfig]
+  UseAsCardsAllowList=false
+  CardsAllowedOrBanned=['Berserker','Goblinstein','SuspiciousBush','GoblinMachine','GoblinDemolisher','LittlePrince']
+  UseAsSupportCardsAllowList=false
+  SupportCardsAllowedOrBanned=['King_CannonTowers','King_KnifeTowers','GoblinQueen_SpawnAbility','King_ChefTowers']
+  UseAsEvoAllowList=true
+  AllowedOrBannedEvolutions=[]
+
+ [[Classic.TrophyRoads]]
+  TrophyRoad='Classic'
+
+[UndeadMarch]
+ Enabled=false
+ TID='TID_TRAIL_UNDEADMARCH'
+ EnablerType='Chronos'
+ GameMode='Ladder_Classic'
+ TrophyRoadStorageKey='UndeadMarch'
+ DeckStorageKey='UndeadMarch'
+ InitialSupportCard='King_PrincessTowers'
+ ThemeConfiguration='UndeadMarch'
+ BotsEnabled=true
+
+ [[UndeadMarch.ScoreSystems]]
+  IndexType='Arena'
+  Start=1
+  End=2
+  ScoreType='WinLoseNormal'
+  UseLeaderboard=false
+  MatchmakingConstraintGroup='TrailCommonClimber'
+
+ [[UndeadMarch.TrophyRoads]]
+  TrophyRoad='UndeadMarch'
+
+[Royals_2v2_June]
+ Enabled=true
+ TID='TID_TRAIL_ROYALS_2V2'
+ GameMode='Ladder_TeamVsTeam'
+ GameModeTutorial='PvE_Tutorial'
+ TrophyRoadStorageKey='Royals_2v2_June'
+ DeckStorageKey='Royals'
+ SelectedDeckKey='Royals_2v2_June'
+ InitialSupportCard='King_PrincessTowers'
+ ThemeConfiguration='Royals_2v2_June'
+ CollectionLens='Royals'
+ TrophyRoadName='Royals_2v2_June'
+ EnablerType='Chronos'
+ OrderIndex=3
+ ChestOrder=''
+ UnlockArenaIndex=11
+ ShowFriends=false
+ BotsEnabled=false
+ ArenaCountTID='TID_2V2_ARENA_CAPS'
+ Badge='Royals2v2_2024'
+
+ [[Royals_2v2_June.ScoreSystems]]
+  IndexType='Arena'
+  Start=1
+  End=1
+  ScoreType='WinLoseNormal'
+  UseLeaderboard=false
+  MatchmakingConstraintGroup='TrailCommonClimber'
+
+ [[Royals_2v2_June.ScoreSystems]]
+  IndexType='Arena'
+  Start=2
+  End=2
+  ScoreType='EloScore'
+  UseLeaderboard=true
+  MinRankForBadge=9999
+  MatchmakingConstraintGroup='TrailCommonCompetitor'
+
+[AutoChess]
+ Enabled=true
+ TID='TID_AUTOCHESS_GAMEMODE_TITLE'
+ EnablerType='Chronos'
+ Badge='MergeTacticsBadge_202506'
+
+ [[AutoChess.ScoreSystems]]
+  IndexType='Arena'
+  Start=1
+  End=9
+  ScoreType='EloScore'
+  UseLeaderboard=false
+  MatchmakingConstraintGroup='TrailCommonClimber'
+
+ [[AutoChess.ScoreSystems]]
+  IndexType='Arena'
+  Start=10
+  End=10
+  ScoreType='EloScore'
+  UseLeaderboard=true
+  MatchmakingConstraintGroup='TrailCommonCompetitor'
+
+[SeasonalTrophyRoad]
+ Enabled=true
+ TID=''
+ GameMode='Ladder'
+ GameModeTutorial=''
+ TrophyRoadStorageKey='seasonal-trophy-road'
+ DeckStorageKey='Royals'
+ InitialSupportCard='King_PrincessTowers'
+ ThemeConfiguration='SeasonalTrophyRoad'
+ EnablerType='ChronosTemplate'
+ OrderIndex=10
+ StarterDeck=''
+ BotsEnabled=true
+ TutorialKey=''
+ TutorialNPCs=[]
+ UnlockArenaIndex=1
+ ShowFriends=true
+ Badge=''
+ ParentTrail='Default'
+
+ [[SeasonalTrophyRoad.ScoreSystems]]
+  IndexType='Arena'
+  Start=1
+  End=5
+  ScoreType='EloScore'
+  UseLeaderboard=false
+  MatchmakingConstraintGroup='TrailCommonCompetitor'
+
+ [[SeasonalTrophyRoad.TrophyRoads]]
+  TrophyRoad='SeasonalProto'
+
+[Challenge_Template]
+ Enabled=true
+ EnablerType='ChronosTemplate'
+ TID='TID_CHALLENGE'
+ GameMode='DraftMode'
+ GameModeTutorial=''
+ TrophyRoadStorageKey='Challenge'
+ DeckStorageKey='Challenge'
+ SelectedDeckKey='Challenge'
+ InitialSupportCard=''
+ ThemeConfiguration='RoyalRoad'
+ CollectionLens=''
+ ProgressSystem='Challenge'
+ TrophyRoadName=''
+ OrderIndex=11
+ ChestOrder=''
+ UnlockArenaIndex=8
+ ShowFriends=false
+ BotsEnabled=false
+
+ [[Challenge_Template.ScoreSystems]]
+  IndexType='None'
+  ScoreType='WinLoseNormal'
+  MatchmakingConstraintGroup='TrailChallenge'
+
+[SeasonalEvent_Template]
+ Enabled=true
+ EnablerType='ChronosTemplate'
+ TID='TID_SEASONAL_EVENT'
+ GameMode='DraftMode'
+ GameModeTutorial=''
+ TrophyRoadStorageKey=''
+ DeckStorageKey='SeasonalEvent'
+ SelectedDeckKey=''
+ InitialSupportCard=''
+ ThemeConfiguration='GoblinRoad'
+ CollectionLens=''
+ ProgressSystem='None'
+ TrophyRoadName=''
+ OrderIndex=12
+ ChestOrder=''
+ UnlockArenaIndex=8
+ ShowFriends=false
+ BotsEnabled=false
+ ArenaCountTID=''
+ Badge=''
+
+ [[SeasonalEvent_Template.ScoreSystems]]
+  IndexType='None'
+  ScoreType='WinLoseNormal'
+  MatchmakingConstraintGroup='TrailSeasonalEvent'
