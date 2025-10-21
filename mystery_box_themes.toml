@@ -1,0 +1,96 @@
+[Common]
+BackgroundExportName = "bg_common_stretch_h"
+TapSound = "sound_tap_lootdrop_common"
+TapEffectName = "tap_flash_common"
+TitleEffectName = "star_common"
+
+AnimationIntroName = "mystery_box_intro_common"
+AnimationIdleName = "mystery_box_idle_common"
+AnimationSpinEffectTopNormalName = "effect_top_common_normal"
+AnimationSpinEffectBottomNormalName = "effect_bottom_common_normal"
+AnimationSpinNormalName = "mystery_box_common_normal"
+
+AnimationSpinEffectTopUpgradeName = "effect_top_common_upgrade"
+AnimationSpinEffectBottomUpgradeName = "effect_bottom_common_upgrade"
+AnimationSpinUpgradeName = "mystery_box_common_upgrade"
+
+AnimationTapToOpen = "mystery_box_idle2_common"
+AnimationOpenName = "mystery_box_spin3_common"
+IconStarCount = 1
+
+[Rare]
+BackgroundExportName = "bg_rare_stretch_h"
+TapSound = "sound_tap_lootdrop_rare"
+TapEffectName = "tap_flash_rare"
+TitleEffectName = "star_rare"
+
+AnimationIntroName = "mystery_box_intro_rare"
+AnimationIdleName = "mystery_box_idle_rare"
+AnimationSpinEffectTopNormalName = "effect_top_rare_normal"
+AnimationSpinEffectBottomNormalName = "effect_bottom_rare_normal"
+AnimationSpinNormalName = "mystery_box_rare_normal"
+
+AnimationSpinEffectTopUpgradeName = "effect_top_rare_upgrade"
+AnimationSpinEffectBottomUpgradeName = "effect_bottom_rare_upgrade"
+AnimationSpinUpgradeName = "mystery_box_rare_upgrade"
+AnimationTapToOpen = "mystery_box_idle2_rare"
+AnimationOpenName = "mystery_box_spin3_rare"
+IconStarCount = 2
+
+[Epic]
+BackgroundExportName = "bg_epic_stretch_h"
+TapSound = "sound_tap_lootdrop_epic"
+TapEffectName = "tap_flash_epic"
+TitleEffectName = "star_epic"
+
+AnimationIntroName = "mystery_box_intro_epic"
+AnimationIdleName = "mystery_box_idle_epic"
+AnimationSpinEffectTopNormalName = "effect_top_epic_normal"
+AnimationSpinEffectBottomNormalName = "effect_bottom_epic_normal"
+AnimationSpinNormalName = "mystery_box_epic_normal"
+
+AnimationSpinEffectTopUpgradeName = "effect_top_epic_upgrade"
+AnimationSpinEffectBottomUpgradeName = "effect_bottom_epic_upgrade"
+AnimationSpinUpgradeName = "mystery_box_epic_upgrade"
+AnimationTapToOpen = "mystery_box_idle2_epic"
+AnimationOpenName = "mystery_box_spin3_epic"
+IconStarCount = 3
+
+[Legendary]
+BackgroundExportName = "bg_legendary_stretch_h"
+TapSound = "sound_tap_lootdrop_legendary"
+TapEffectName = "tap_flash_legendary"
+TitleEffectName = "star_legendary"
+
+AnimationIntroName = "mystery_box_intro_legendary"
+AnimationIdleName = "mystery_box_idle_legendary"
+AnimationSpinEffectTopNormalName = "effect_top_legendary_normal"
+AnimationSpinEffectBottomNormalName = "effect_bottom_legendary_normal"
+AnimationSpinNormalName = "mystery_box_legendary_normal"
+
+AnimationSpinEffectTopUpgradeName = "effect_top_legendary_upgrade"
+AnimationSpinEffectBottomUpgradeName = "effect_bottom_legendary_upgrade"
+AnimationSpinUpgradeName = "mystery_box_legendary_upgrade"
+AnimationTapToOpen = "mystery_box_idle2_legendary"
+AnimationOpenName = "mystery_box_spin3_legendary"
+IconStarCount = 4
+
+[Champion]
+BackgroundExportName = "bg_champion_stretch_h"
+TapSound = "sound_tap_lootdrop_common"
+TapEffectName = "tap_flash_common"
+TitleEffectName = "star_champion"
+
+AnimationIntroName = "mystery_box_intro_champion"
+AnimationIdleName = "mystery_box_idle_champion"
+AnimationSpinEffectTopNormalName = "effect_top_champion_normal"
+AnimationSpinEffectBottomNormalName = "effect_bottom_champion_normal"
+AnimationSpinNormalName = "mystery_box_champion_normal"
+
+AnimationSpinEffectTopUpgradeName = "effect_top_champion_upgrade"
+AnimationSpinEffectBottomUpgradeName = "effect_bottom_champion_upgrade"
+AnimationSpinUpgradeName = "mystery_box_champion_upgrade"
+
+AnimationTapToOpen = "mystery_box_idle2_champion"
+AnimationOpenName = "mystery_box_spin3_champion"
+IconStarCount = 5

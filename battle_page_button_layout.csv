@@ -1,0 +1,15 @@
+"Name","HorAlign","Order","ExtraHeight","VerOffset","MaxCount"
+"string","string","int","int","int","int"
+"button_daily_tasks","Left",0,0,0,1
+"button_dailylogin","Left",1,0,0,1
+"button_giveaway","Left",2,0,0,2
+"button_season_shop","Right",0,0,0,1
+"button_event_notification","Left",2,0,0,3
+"button_tencent","Right",10,0,0,1
+"button_chain_offer","Left",10,0,0,2
+"button_chain_offer_secondary","Right",10,0,0,2
+"button_sub_shop","Left",20,0,0,1
+"button_sub_shop_secondary","Right",20,0,0,1
+"button_survey","Right",3,0,0,1
+"button_clan_milestone","Left",30,0,0,1
+"button_clan_milestone_secondary","Right",30,0,0,1

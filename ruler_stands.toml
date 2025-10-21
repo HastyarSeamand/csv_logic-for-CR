@@ -1,0 +1,21 @@
+
+[AutoChessArena1]
+	RulerStandAsset="logic/autochess/ruler_platform/wooden"
+[AutoChessArena2]
+	RulerStandAsset="logic/autochess/ruler_platform/wooden"
+[AutoChessArena3]
+	RulerStandAsset="logic/autochess/ruler_platform/wooden"
+[AutoChessArena4]
+	RulerStandAsset="logic/autochess/ruler_platform/silver"
+[AutoChessArena5]
+	RulerStandAsset="logic/autochess/ruler_platform/silver"
+[AutoChessArena6]
+	RulerStandAsset="logic/autochess/ruler_platform/silver"
+[AutoChessArena7]
+	RulerStandAsset="logic/autochess/ruler_platform/golden"
+[AutoChessArena8]
+	RulerStandAsset="logic/autochess/ruler_platform/golden"
+[AutoChessArena9]
+	RulerStandAsset="logic/autochess/ruler_platform/golden"
+[AutoChessArena10]
+	RulerStandAsset="logic/autochess/ruler_platform/diamond"

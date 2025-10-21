@@ -1,0 +1,85 @@
+
+[ACTION.Healthbar_Medium]
+	ClassType = "ActionVisualActionGroup"
+	VisualActions = ["Healthbar_Badge_Default", "Healthbar_Badge_Default_LevelUp", "Healthbar_Bar_Medium"]
+
+[ACTION.Healthbar_Medium_Evo]
+	ClassType = "ActionVisualActionGroup"
+	VisualActions = ["Healthbar_Badge_Evo", "Healthbar_Badge_Evo_LevelUp", "Healthbar_Bar_Medium"]
+
+[ACTION.Healthbar_High]
+	ClassType = "ActionVisualActionGroup"
+	VisualActions = ["Healthbar_Badge_Default", "Healthbar_Badge_Default_LevelUp", "Healthbar_Bar_High"]
+
+[ACTION.Healthbar_High_2_Segments]
+	ClassType = "ActionVisualActionGroup"
+	VisualActions = ["Healthbar_High", "Healthbar_Segmenter_50"]
+
+[ACTION.Healthbar_Badge_Default]
+	ClassType = "ActionAddHealthBarPart"
+	PartType = "Badge"
+	FileName = "sc/ui.sc"
+	BlueExportName = "healthbar_player_bg"
+	RedExportName = "healthbar_enemy_bg"
+
+[ACTION.Healthbar_Badge_Default_LevelUp]
+	ClassType = "ActionAddHealthBarPart"
+	PartType = "Badge"
+	Conditions = ["LevelUp"]
+	FileName = "sc/ui.sc"
+	BlueExportName = "healthbar_chef_upgrade_player"
+	RedExportName = "healthbar_chef_upgrade_enemy"
+
+[ACTION.Healthbar_Badge_Shield]
+	ClassType = "ActionAddHealthBarPart"
+	PartType = "Badge"
+	Conditions = ["Shield"]
+	FileName = "sc/ui.sc"
+	BlueExportName = "healthbar_player_shield"
+	RedExportName = "healthbar_enemy_shield"
+
+[ACTION.Healthbar_Badge_Shield_LevelUp]
+	ClassType = "ActionAddHealthBarPart"
+	PartType = "Badge"
+	Conditions = ["LevelUp", "Shield"]
+	FileName = "sc/ui.sc"
+	BlueExportName = "healthbar_chef_upgrade_player_shield"
+	RedExportName = "healthbar_chef_upgrade_enemy_shield"
+
+[ACTION.Healthbar_Badge_Evo]
+	ClassType = "ActionAddHealthBarPart"
+	PartType = "Badge"
+	FileName = "sc/ui.sc"
+	BlueExportName = "healthbar_player_bg_evo"
+	RedExportName = "healthbar_enemy_bg_evo"
+
+[ACTION.Healthbar_Badge_Evo_LevelUp]
+	ClassType = "ActionAddHealthBarPart"
+	PartType = "Badge"
+	Conditions = ["LevelUp"]
+	FileName = "sc/ui.sc"
+	BlueExportName = "healthbar_chef_upgrade_player_evo"
+	RedExportName = "healthbar_chef_upgrade_enemy_evo"
+
+[ACTION.Healthbar_Bar_Medium]
+	ClassType = "ActionAddHealthBarPart"
+	PartType = "Bar"
+	FileName = "sc/ui.sc"
+	BlueExportName = "healthbar_player_bar_medium"
+	RedExportName = "healthbar_enemy_bar_medium"
+	OffsetX = 1 
+
+[ACTION.Healthbar_Bar_High]
+	ClassType = "ActionAddHealthBarPart"
+	PartType = "Bar"
+	FileName = "sc/ui.sc"
+	BlueExportName = "healthbar_player_bar_large"
+	RedExportName = "healthbar_enemy_bar_large"
+
+[ACTION.Healthbar_Segmenter_50]
+	ClassType = "ActionAddHealthBarPart"
+	PartType = "Segmenter"
+	FileName = "sc/ui.sc"
+	BlueExportName = "hp_bar_divider_player"
+	RedExportName = "hp_bar_divider_player"
+	SegHpPercentage = 50
